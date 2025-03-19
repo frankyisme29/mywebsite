@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, yellow, green); /* Green and yellow background gradient */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+    color: #fff;
+    background-color: rgba(173, 216, 230, 0.8); /* Light blue */
+}
+
+main {
+    width: 80%;
+    max-width: 800px; /* added max width */
+    margin: 2em auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    color: #2E8B57; /* Dark green for headings */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#contact a {
+    color: darkblue;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: blue; /* Change color on hover */
+}
+section {
+    margin-bottom: 2em;
+    padding: 0.5em;
+}
+
